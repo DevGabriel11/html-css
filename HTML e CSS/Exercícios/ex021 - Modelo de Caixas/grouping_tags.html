@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+            border: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.493);
+            margin-bottom: 20px;
+            margin-top: 10px;
+            
+        }
+
+        header > h1{
+            text-align: center;
+            margin-top: 5px;
+            
+            
+        }
+
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            text-align: center;
+            border: 1px;
+            border-radius: 3px;
+            box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.479);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border: 1px;
+            margin-right: 30px;
+
+        }
+
+        nav > a:hover{
+            color: red;
+        }
+
+        section#noticias{
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+            border: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.493);
+            
+
+        }
+
+        section#noticias > article > h2{
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        article > p {
+            text-align: justify;
+            margin: 10px;
+        }
+
+        section#noticias > article > aside{
+            background-color: lightgray;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.288);
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+            padding: 4px;
+            margin-top: 50px;
+            font-size: 1em; 
+
+        }
+        
+        footer > p{
+            margin: 0px;
+            
+        }
+
+        section#assuntos{
+            background-color: white;
+            margin: 10px;
+            border: 10px;
+            padding: 5px;
+            border-radius: 5px 20px;
+            text-align: center;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+            margin-bottom: 20px;
+        }
+
+        section#assuntos > h2{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        section#assuntos > p{
+            text-align: justify;
+            margin: 5px;
+        }
+
+        
+
+      
+    </style>
+
+</head>
+<body>
+
+    
+
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+        
+    </header>
+
+    <main>  
+
+        <section id="assuntos">
+
+            <h2>Seção de Assuntos</h2>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sint corporis eius ut ipsam! Est facere libero exercitationem sint, veniam tempore molestias saepe eum in ipsa? Molestiae, enim? Reprehenderit, odio.
+
+           
+            </p>
+
+        </section>
+
+        <section id="noticias">
+
+            <article>
+
+                <h2>Notícias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, officia natus earum, repudiandae similique atque optio beatae doloribus impedit iusto quisquam. Illo, animi. Maxime, harum? Sapiente possimus cumque consequuntur nostrum!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatibus laboriosam maxime numquam tempore sunt odio optio rem, iure explicabo quo quae! Repellat accusantium quae dignissimos nesciunt obcaecati enim molestias?
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis laborum quia maiores, consequatur nulla ex tenetur, sed quas quo hic id ut. Voluptatem possimus quos cupiditate! Molestias, vel temporibus.
+                </p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum culpa illum sequi itaque cumque cupiditate esse laborum quas expedita adipisci vel excepturi perferendis, amet ipsam, mollitia asperiores. Id, veritatis laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos, doloribus beatae laborum ex reprehenderit deleniti quia nemo architecto ea aliquid sequi est sit velit molestias illo impedit eaque voluptatibus?</p>
+
+                <aside>
+                    <p>Artigo escrito por José Fulano</p>
+                </aside>
+
+            </article>
+
+            <article>
+
+                <p>	Artigo qualquer </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Desenvolvido por Gabriel Pereira</p>
+
+    </footer>
+
+</body>
+</html>

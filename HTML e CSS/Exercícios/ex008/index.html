@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>Nessa frase temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+
+    <h2>Itálico/Ênfase</h2>
+    <p>Nessa frase temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+
+    <p>Nessa frase temos um <em>termo em ênfase</em></p>
+
+   <h2>Reflexione</h2>
+    <p>
+        Então, ao invés de usar B para "Negrito", é melhor usar STRONG para definir qual parte do texto será mais "Forte".
+        <br>
+        "Negrito" não tem significado (semântica), apenas refere-se a "Forma", enquanto "STRONG" (Forte), tem significado/semântica;
+    </p>
+
+    <h2>Texto marcado</h2>
+    <p>
+        Podemos criar também <mark style="background-color: blue;">um texto marcado</mark> usando a tag MARK.
+    </p>
+
+    <p>Texto marcado na <mark>cor padrão</mark></p>
+
+    <!--A tag MARK, marca o texto por padrão em amarelo, mas se quiser mudar, precisa chamar a CSS dentro da tag MARK e escolher o background-color-->
+
+    <!-- OBS: se quiser mudar a cor de um MARK só de uma frase única e manter o resto na cor padrão, pode fazer do jeito acima, agora, se quiser mudar de todos, daí precisa chamar a CSS dentro da HEAD do HTML, criar um seletor MARK { } e escolher a background-color. Dessa maneira a cor de todos os marks DA PÁGINA será alterada. E para alterar os MARKS de outras páginas, tem uma terceira maneira que ainda será ensinada que é com LINK EXTERNO-->
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrago</p>
+
+    <!--Tag BIG está em desuso (por isso tá em vermelho) enquanto SMALL continua valendo-->
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <h2>Texto inserido/Sublinhado</h2>
+    <p>Marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois, com a tag INS (semântico)</p>
+
+    <p>Existem também o <u>sublinhado</u> com a tag U (não semântico)</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+     <p>Para inserir coisas do tipo h<sub>2</sub>O</p>
+
+
+
+
+
+
+
+</body>
+</html>

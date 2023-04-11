@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+
+    <Style>
+
+        div.ex01{
+            display: inline-block;
+            background-color: grey;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+
+            /*
+            Acima o shorthand border para:
+            
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            */
+
+        }
+
+        .ex01:hover{
+            background-color: yellow;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p{
+            color: white;
+            display: block;
+            background-color: red;
+
+            /*
+            Esse sinal > entre Div e P
+            
+
+            */
+
+            
+        }
+
+
+    </Style>
+</head>
+<body>
+
+    <h1>Passe o mouse nos quadrados abaixo</h1>
+
+    <div class="ex01">1</div>
+    <div class="ex01">2</div>
+    <div class="ex01">3</div>
+
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+
+    <div class="ex02">
+        Passe o mouse aqui
+
+        <p>TEXTO ESCONDIDO...</p>
+
+    </div>
+
+    <p>fim do exemplo</p>
+    
+</body>
+</html>
