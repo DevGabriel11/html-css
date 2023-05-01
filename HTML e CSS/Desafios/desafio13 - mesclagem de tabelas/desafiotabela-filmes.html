@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Filmes</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(66, 243, 184), rgb(44, 163, 123), rgb(6, 131, 89));
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            margin: auto;
+        }
+
+        caption{
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main{
+            background-color: white;
+            width: 650px;
+            height: 450px;
+            padding: 10px;
+            margin: 70px auto 70px auto;
+
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.473);
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Tabela de Filmes</h1>
+        <table>
+            <caption>Filmes Favoritos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Grupos</th>
+                    <th scope="col">Nomes</th>
+                    <th colspan="3" scope="colgroup">Filmes</th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">Mulheres</th>
+                        <td>Ana Maria</td>
+                        <td>Alien</td>
+                        <td>Rambo</td>
+                        <td>Avengers</td>
+        
+                </tr>
+                <tr>
+                    <td>Beatriz Souza</td>
+                    <td>Hulk</td>
+                    <td>Incpetion</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td>Cláudia Melo</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
+                </tr>
+        
+                <tr>
+                    <th scope="rowgroup" rowspan="3">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Untouchables</td>
+                    <td>Amenesia</td>
+                    <td>Gladiator</td>
+                </tr>
+                <tr>
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr>
+                    <td>Fabiano Mota</td>
+                    <td>Star Wars 5</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th scope="row" colspan="4">Total de Filmes</th>
+                <Td><strong>18</strong></Td>
+            </tfoot>
+        </table>
+    </main>
+    
+</body>
+</html>
