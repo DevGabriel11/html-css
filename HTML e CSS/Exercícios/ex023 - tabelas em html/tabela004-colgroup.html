@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            margin: auto;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 6px;
+
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        col.cnome{
+            background-color: grey;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Agrupando colunas com "colgroup"</h1>
+
+    <table>
+        <caption>Exemplo</caption>
+
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Fulano</td>
+            <td>Homem</td>
+            <td>33</td>
+            <td>Maquinista da CPTM</td>
+
+        </tr>
+
+        <tr>
+            <td>Fulano</td>
+            <td>Homem</td>
+            <td>33</td>
+            <td>Maquinista da CPTM</td>
+
+        </tr><tr>
+            <td>Fulano</td>
+            <td>Homem</td>
+            <td>33</td>
+            <td>Maquinista da CPTM</td>
+
+        </tr><tr>
+            <td>Fulano</td>
+            <td>Homem</td>
+            <td>33</td>
+            <td>Maquinista da CPTM</td>
+
+        </tr>
+
+    </table>
+
+ 
+    
+</body>
+</html>
